@@ -1,0 +1,55 @@
+//Restaurant Mangemant system
+Ali Ahmad Kansoun 103577
+Rana Fouad Ghassani   // Not specified yet
+
+
+.Design Patterns:
+
+
+.Singleton Pattern for Database Connection:
+Ensures a single, centralized connection to the PostgreSQL database for efficient data management.
+
+.Strategy Pattern for Payment Services:
+Offers flexibility in choosing various payment methods, aligning with customer preferences.
+
+.Bridge Pattern for Meal and Meat Types:
+Enables a flexible and scalable approach to managing meal options and customization, especially for main courses with different meat types.
+
+.Factory Pattern for Payment:
+Introduces a new class dedicated to handling payment processes, enhancing modularity and extensibility.
+
+User-Friendly Interface:
+
+.Intuitive login system for secure access.
+Navigable menu scenes with a user-friendly interface for seamless item selection.
+Username:ali pass:123
+
+
+.Customization for Main Courses:
+Specialized scene for customizing main course selections, including specifying the type of meat for an authentic dining experience.
+
+
+.Efficient Ordering Process:
+Streamlined process for adding items to the cart using a plus button mechanism.
+
+
+.Payment Flexibility:
+Diverse payment options available, accommodating various preferences and ensuring a convenient transaction process.
+
+
+
+.Database Connection:
+The system employs the Singleton pattern for database connection, ensuring a single, shared connection to the PostgreSQL database.
+This promotes data consistency, reliability, and efficient management of restaurant-related information.
+
+List of Different Types:
+
+.A dynamic list structure is utilized to manage various entities such as menu items, payment methods, and customer orders. This ensures efficient storage and retrieval of diverse information within the system.
+Lambda Expression for OnMouseClickHandler:
+
+
+.Lambda expressions are employed for handling mouse click events, particularly in the graphical user interface.
+ For instance, when a user clicks the "Add to Cart" button, a lambda expression facilitates the execution of specific actions, 
+such as adding the selected item to the shopping cart.
+
+

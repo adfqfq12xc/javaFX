@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="449.0" prefWidth="1011.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo7.MenuController">
+  <columnConstraints>
+
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="145.0" minHeight="7.0" prefHeight="46.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="293.0" minHeight="10.0" prefHeight="193.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="320.0" minHeight="10.0" prefHeight="210.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Restau MENU" textAlignment="CENTER" wrappingWidth="238.13671875">
+         <font>
+            <Font name="Arial Black" size="22.0" />
+         </font>
+
+      </Text>
+
+      <VBox fx:id="Mezza" prefHeight="182.0" prefWidth="333.0" GridPane.rowIndex="1" />
+      <VBox fx:id="Appetizers" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <VBox fx:id="MainCourses" prefHeight="200.0" prefWidth="100.0" GridPane.rowIndex="2" />
+      <ImageView fx:id="im1" fitHeight="41.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="RIGHT">
+         <GridPane.margin>
+            <Insets right="20.0" />
+         </GridPane.margin>
+      </ImageView>
+      <VBox fx:id="Appetizers1" layoutX="516.0" layoutY="56.0" prefHeight="200.0" prefWidth="100.0" />
+   </children>
+</GridPane>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.GlyphsStack?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="572.0" prefWidth="756.0" style="-fx-background-color: bg-primary;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo7.MainPageCon">
+   <left>
+      <VBox fx:id="vbox" prefHeight="336.0" prefWidth="142.0" BorderPane.alignment="CENTER">
+         <children>
+            <GlyphsStack prefHeight="37.0" prefWidth="142.0" />
+         </children></VBox>
+   </left>
+   <top>
+      <HBox prefHeight="64.0" prefWidth="600.0" style="-fx-background-color: #F2F3F4;" BorderPane.alignment="CENTER">
+         <children>
+            <HBox prefHeight="64.0" prefWidth="144.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="POS System" wrappingWidth="70.13671875">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets top="20.0" />
+                     </HBox.margin>
+                  </Text>
+               </children>
+            </HBox>
+            <Text fill="#ab7d7d" strokeType="OUTSIDE" strokeWidth="0.0" text="Categories" textAlignment="CENTER">
+               <HBox.margin>
+                  <Insets bottom="50.0" top="20.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Text>
+            <HBox alignment="TOP_RIGHT" minHeight="-Infinity" prefHeight="64.0" prefWidth="670.0">
+               <children>
+                  <Text fx:id="idusername" strokeType="OUTSIDE" strokeWidth="0.0" text="Username">
+                     <HBox.margin>
+                        <Insets right="20.0" top="20.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="idtext" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin" textAlignment="CENTER" wrappingWidth="61.806640625">
+                     <HBox.margin>
+                        <Insets right="20.0" top="20.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="16.0" />
+                     </font>
+                  </Text>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+   </top>
+</BorderPane>
